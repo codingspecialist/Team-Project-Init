@@ -18,5 +18,11 @@ public class BoardController {
     public String save() {
         System.out.println("게시글 작성 완료");
         return "redirect:/";
+
+    @GetMapping("/board/1")
+    public String detail() {
+        System.out.println("글 상세보기");
+        return "board/detail";
+
     }
 }
