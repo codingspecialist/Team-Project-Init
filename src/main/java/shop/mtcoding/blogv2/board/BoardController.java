@@ -21,7 +21,7 @@ public class BoardController {
     // index(), 홈페이지
     @GetMapping("/")
     public String index() {
-        System.out.println("홈페이지&게시글 목록1");
+        System.out.println("홈페이지&게시글 목록12");
         return "index";
     }
 
