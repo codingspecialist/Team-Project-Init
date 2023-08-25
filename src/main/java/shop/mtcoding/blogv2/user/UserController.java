@@ -29,4 +29,10 @@ public class UserController {
 
         return "redirect:/";
     }
+
+    @PostMapping("user/update")
+    public String update() {
+        return "redirect:/";
+    }
+
 }
