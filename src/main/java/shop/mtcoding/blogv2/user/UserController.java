@@ -27,7 +27,7 @@ public class UserController {
     public String join(){
         System.out.println("회원가입완료");
         return "redirect:/login";
-
+    }
 
     @GetMapping("/loginForm")
     public String loginForm() {
